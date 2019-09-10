@@ -1,5 +1,6 @@
 package org.superbiz.moviefun;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
 
