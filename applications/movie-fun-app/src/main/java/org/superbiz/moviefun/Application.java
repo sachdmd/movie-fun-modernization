@@ -18,10 +18,10 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
+    /*@Bean
     public ServletRegistrationBean actionServletRegistration(ActionServlet actionServlet) {
         return new ServletRegistrationBean(actionServlet, "/moviefun/*");
-    }
+    }*/
 
     @Bean
     ServiceCredentials serviceCredentials(@Value("${vcap.services}") String vcapServices) {
