@@ -52,25 +52,4 @@ task dependenciesGraph(dependsOn: "dependenciesGraphDot", type: Exec) {
 task clean(type: Delete) {
     delete "build"
 }
-/*repositories {
-    mavenCentral()
-}
 
-apply plugin: "java"
-apply plugin: "war"
-apply plugin: "org.springframework.boot"
-apply plugin: "io.spring.dependency-management"
-
-group = "org.superbiz"
-version = "1.1.0-SNAPSHOT"
-
-description = "OpenEJB :: Web Examples :: Moviefun"
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-test {
-    testLogging {
-        exceptionFormat = 'full'
-    }
-}*/
